@@ -11,6 +11,6 @@ public class Triangel2 {
         omkrets = a+b+c;
         s = omkrets/2;
         area = Math.sqrt(s*(s-a)*(s-b)*(s-c));
-        System.out.printf("Omkrets = %.2f \nArea = %.2f",omkrets, area);
+        System.out.printf("Omkrets = %.3f \nArea = %.2f",omkrets, area);
     }
 }
